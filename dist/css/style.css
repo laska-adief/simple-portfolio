@@ -1,0 +1,75 @@
+:root {
+  --primary-color: rgb(248, 108, 108);
+  --primary-color-darker: rgb(248, 73, 73);
+  --secondary-color: rgb(245, 157, 108);
+}
+textarea {
+  resize: none;
+}
+.nav {
+  min-height: 10vh;
+  /* background-color: var(--primary-color); */
+}
+
+footer .socmed a {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-brand,
+.hero span,
+.title {
+  color: var(--primary-color);
+  transition: 300ms;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+footer .socmed a:hover {
+  color: var(--primary-color);
+}
+
+.navbar-light .navbar-brand:hover {
+  color: var(--primary-color-darker);
+}
+
+.ct {
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  display: inline-block;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-demo,
+.btn-msg {
+  color: white;
+  background-color: var(--primary-color);
+  transition: 300ms;
+}
+
+.btn-demo:hover,
+.btn-msg:hover {
+  color: white;
+  background-color: var(--primary-color-darker);
+}
+
+@media screen and (max-width: 768px) {
+  .col-md-6 {
+    padding-bottom: 1rem;
+  }
+}
